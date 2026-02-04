@@ -1,133 +1,91 @@
-Cursor Website Clone (HTML & CSS)
+# Cursor Website Clone (HTML & CSS)
 
-A desktop-only clone of the Cursor website, built as an assignment using pure HTML and CSS.
-The objective was to closely replicate the layout, typography, colors, and structure of the original website while strictly adhering to the given constraints.
+This repository contains a **desktop-only clone of the Cursor website**, built as part of an assignment using **only HTML and CSS**.
 
-Project Overview
+The objective of this project was to closely replicate the **layout, typography, colors, and overall structure** of the original Cursor landing page while strictly following the given constraints.
 
-This project focuses on recreating the visual design and layout of the Cursor landing page.
-Emphasis was placed on spacing, alignment, typography, and overall structure rather than interactivity or responsiveness.
+---
 
-Sections Implemented
+## Project Overview
 
-Top Navigation Bar
+This project focuses on recreating the visual design of the Cursor website without adding interactivity or responsiveness.  
+Special attention was given to spacing, alignment, typography, and section hierarchy to achieve a clean and professional look.
 
-Logo
+---
 
-Navigation links
+## Sections Implemented
 
-Primary CTA
+1. Top Navigation Bar  
+   - Logo  
+   - Navigation links  
+   - Primary call-to-action  
+   - Dark background  
 
-Dark background
+2. Hero Section  
+   - Main headline  
+   - Description text  
+   - Call-to-action button  
+   - Large product screenshot  
 
-Hero Section
+3. Trusted By / Logos  
+   - Horizontal row of company logos  
 
-Main headline
+4. Feature Sections  
+   - Three two-column sections  
+   - Text and image layout  
+   - Alternating image and text positions  
 
-Description
+5. Feature Cards Section  
+   - Section heading  
+   - Grid layout with multiple feature cards  
 
-Call-to-action button
+6. Testimonials  
+   - Quote-style cards  
+   - Name and role information  
 
-Large product screenshot
+7. Use Cases / Stories  
+   - Cards with image and short descriptive text  
 
-Trusted By / Logos
+8. Changelog / Updates  
+   - List of updates with corresponding dates  
 
-Row of company logos
+9. Team / About Section  
+   - Large image  
+   - Short description  
+   - Call-to-action button  
 
-Feature Sections
+10. Final Call To Action  
+    - Prominent heading  
+    - Single primary button  
 
-Three two-column sections
+11. Footer  
+    - Multi-column layout  
+    - Navigation links and company information  
 
-Text and image layout
+---
 
-Alternating image/text alignment
+## Tech Stack
 
-Feature Cards Section
+- HTML5  
+- CSS3  
 
-Section heading
+---
 
-Grid layout with multiple feature cards
+## Typography
 
-Testimonials
+The original Cursor website uses **custom licensed fonts** that are not publicly available.  
+To maintain visual similarity while respecting licensing constraints, this project uses a legal and open-source alternative.
 
-Quote cards
+### Font Used
 
-Name and role information
+- **Inter** (via Google Fonts)
 
-Use Cases / Stories
+Inter closely matches the spacing, weight, and modern feel of Cursor’s typography.
 
-Cards with image and short descriptive text
+### Font Import
 
-Changelog / Updates
 
-List of updates with corresponding dates
-
-Team / About Section
-
-Large image
-
-Short description
-
-Call-to-action button
-
-Final Call To Action
-
-Prominent heading
-
-Single primary button
-
-Footer
-
-Multi-column layout
-
-Navigation links and company information
-
-Tech Stack
-
-HTML5
-
-Constraints Followed
-
-Only HTML and CSS were used
-
-No JavaScript
-
-No TailwindCSS or CSS frameworks
-
-No AI usage
-
-No animations or visual effects
-
-Desktop-only layout (no responsiveness)
-
-Images and icons inspired by the original website
-
-Fonts, colors, and layout matched as closely as possible
-
-Purpose of the Project
-
-Practice real-world UI cloning
-
-Strengthen CSS layout and styling skills
-
-Understand professional landing page structure
-
-Improve attention to visual detail
-
-How to Run Locally
-
-Clone the repository:
-
-git clone <repository-link>
-
-
-Open the project folder
-
-Open index.html in a web browser
-
-Disclaimer
-
-This project was created strictly for educational purposes as part of an assignment.
-All design inspiration and assets belong to the original Cursor website.
-CSS3
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
